@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.adv-color {
+    background-color: #4D5800;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./../img/banner1.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70%;
+    display: block;
+}
+
+.hero-plus {
+    position: absolute;
+    margin-top: -7em;
+    margin-right: 2em;
+}

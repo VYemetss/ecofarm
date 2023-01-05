@@ -82,11 +82,15 @@ body, html {
 .product-card {
     width: 100%;
 }
-
-.product-card__img {
-
+.category-card {
+    height: 310px;
 }
-
 .product-card__img-inner {
     width: 100%;
+}
+
+.section-excursion-img {
+    background: url(./../img/excursion.png) no-repeat;
+    overflow: hidden;
+    padding-top: 56.25%;
 }

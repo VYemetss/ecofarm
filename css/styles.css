@@ -90,7 +90,5 @@ body, html {
 }
 
 .section-excursion-img {
-    background: url(./../img/excursion.png) no-repeat;
-    overflow: hidden;
-    padding-top: 56.25%;
+  
 }

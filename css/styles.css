@@ -104,3 +104,8 @@ body, html {
     border-bottom: 2px solid;
     border-color: #BC9B00;
 }
+
+.section-footer__dark-info {
+    background-color: #1F2400;
+    letter-spacing: 0.5px;
+}

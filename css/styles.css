@@ -89,6 +89,10 @@ body, html {
     width: 100%;
 }
 
-.section-excursion-img {
-  
+.section-excursion__description {
+    letter-spacing: 0.5px;
+}
+
+.section--excursion__details {
+    text-decoration: none;
 }

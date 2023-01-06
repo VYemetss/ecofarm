@@ -96,3 +96,11 @@ body, html {
 .section-cooperation__details {
     letter-spacing: 0.5px;
 }
+.section-footer__dark {
+    background-color: #1F2400;
+}
+
+.section-footer__dark-navbar {
+    border-bottom: 2px solid;
+    border-color: #BC9B00;
+}

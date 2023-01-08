@@ -12,7 +12,11 @@ body, html {
 }
 
 .yellow-dark {
-    color: #BC9B00 !important;
+    background: #BC9B00 !important;
+}
+
+.green-dark {
+    background: #4D5800 !important;
 }
 
 .category-items {
@@ -59,9 +63,7 @@ body, html {
 }
 
 .delivery-border {
-
     /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -78,6 +80,19 @@ body, html {
     order: 3;
     flex-grow: 0;
 }
+
+.dot {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.dot:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
 
 .cooperate__svg {
     height: 60px;

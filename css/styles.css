@@ -58,6 +58,26 @@ body, html {
     display: block;
 }
 
+.cooperate__img {
+    height: 100%;
+}
+
+.cooperate__svg {
+    height: 60px;
+}
+
+.mt-10 {
+    margin-top: 6rem;
+}
+
+.sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sans > * {
+    font-family: inherit;
+}
+
 .hero-plus {
     width: 100%;
     height: auto;

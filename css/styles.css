@@ -58,8 +58,25 @@ body, html {
     display: block;
 }
 
-.cooperate__img {
-    height: 100%;
+.delivery-border {
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 48px;
+
+    /* dark */
+
+    border: 1px solid #1F2400;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
 }
 
 .cooperate__svg {

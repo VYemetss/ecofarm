@@ -157,3 +157,9 @@ body, html {
     background-color: #1F2400;
     letter-spacing: 0.5px;
 }
+
+@media (max-width: 576px) {
+    .phone-categories {
+        background-color: grey;
+    }
+}
